@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 31 22:41:26 2026
-
-@author: Zhang
-"""
-
 """
 Objectif : Fusionner en un seul fichier csv tous les csv téléchargés du jeu de données RNA 
 """
@@ -16,7 +9,7 @@ import glob
 
 # Définition du chemin du dossier contenant les fichiers CSV
 # Le "r" indique une chaîne brute (raw string) pour éviter les problèmes avec les \ de Windows
-chemin = r"C:/Users/Zhang/OneDrive/Bureau/Memoire_SDHC/Base_de_donnees/data_associations/rna_waldec_20250901"
+chemin = r"Saisissez le chemin dans lequel se trouvent les fichiers"
 
 # Récupération de tous les fichiers CSV dont le nom commence par "rna_waldec_20250901"
 # Le * permet de capturer tous les fichiers correspondants au motif

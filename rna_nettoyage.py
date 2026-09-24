@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Feb  6 12:19:26 2026
-
-@author: Zhang
-"""
-
 """
 Objectif : Nettoyer le jeu de données du RNA afin de trouver les associations chinoises
 
@@ -16,7 +9,7 @@ import pandas as pd
 import re # librairie pour les regex
 
 # low_memory -> permet de lire le fichier csv en petits morceaux pour les fichiers volumineux
-df = pd.read_csv("C:/Users/Zhang/OneDrive/Bureau/Memoire_SDHC/Base_de_donnees/RNA_dataset/DonneesBrut/rna_waldec_20250901/waldec_complet.csv", sep = ",", encoding = "utf-8", low_memory = False)
+df = pd.read_csv("Saisissez votre chemin", sep = ",", encoding = "utf-8", low_memory = False)
 
 df.head()
 df.shape
